@@ -12,7 +12,7 @@ export const PricingSection = () => {
         </h2>
         <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
           Go beyond basic AI tools with our Pro and Premium plans for
-          high-quality image generation and customization.
+          high-quality <br /> image generation and customization.
         </p>
       </div>
 
@@ -63,12 +63,12 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="mt-6 w-[80%]  bg-gradient-to-b from-[#C289FF] to-purple-600 text-white py-4 rounded-lg">
+            <button className="cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 rounded-lg">
               Start for Free
             </button>
           </div>
         </div>
-        <div className="md:transform md:-translate-y-12 bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] text-white shadow-lg rounded-3xl p-8 py-12">
+        <div className="md:transform md:-translate-y-12 bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] text-white shadow-lg rounded-3xl p-8 py-12">
           <div className="flex gap-2  relative">
             <img className="w-16 h-16" src="/Group 39523.png" />
             <div className="">
@@ -116,7 +116,7 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="mt-6 w-[80%] bg-white   text-purple-900 py-4 rounded-lg">
+            <button className="mt-6 w-[80%] bg-white   text-purple-900 py-4 rounded-lg hover:shadow-2xl cursor-pointer">
               Get started
             </button>
           </div>
@@ -168,7 +168,7 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="mt-6 w-[80%]  bg-gradient-to-b from-[#C289FF] to-purple-600 text-white py-4 rounded-lg">
+            <button className="cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 rounded-lg">
               Start for Free
             </button>
           </div>

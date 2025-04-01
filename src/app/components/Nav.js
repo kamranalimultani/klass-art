@@ -48,8 +48,10 @@ export const Nav = () => {
             <div className="cursor-pointer hover:text-gray-500">Login</div>
             <button
               className={`cursor-pointer bg-transparent border-2  ${
-                scrolled ? "border-blue" : "border-white"
-              } px-6 py-3 rounded-4xl transition-all duration-300 hover:bg-white hover:text-black`}
+                scrolled
+                  ? "border-blue hover:bg-gray-900 hover:text-white"
+                  : "border-white   hover:bg-white hover:text-black"
+              } px-6 py-3 rounded-4xl transition-all duration-300 `}
             >
               Sign Up
             </button>
@@ -73,7 +75,7 @@ export const Nav = () => {
           <div className="cursor-pointer hover:text-gray-500">Subscription</div>
           <div className="cursor-pointer hover:text-gray-500">Dashboard</div>
           <div className="cursor-pointer hover:text-gray-500">Login</div>
-          <button className="cursor-pointer bg-black text-white px-6 py-3 rounded-4xl transition-all duration-300 hover:bg-gray-800">
+          <button className=" cursor-pointer bg-black text-white px-6 py-3 rounded-4xl transition-all duration-300 hover:bg-gray-800">
             Sign Up
           </button>
         </div>
