@@ -3,6 +3,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-openSans: var(--font-openSans);
+  --font-dmSans: var(--font-dmSans);
+}
+/* Utility classes to apply fonts */
+.font-openSans {
+  font-family: var(--font-openSans);
+}
+
+.font-dmSans {
+  font-family: var(--font-dmSans);
 }
 
 @theme inline {
