@@ -70,7 +70,7 @@ export const PricingSection = () => {
         </div>
         <div className="md:transform md:-translate-y-12 bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] text-white shadow-lg rounded-3xl p-8 py-12">
           <div className="flex gap-2  relative">
-            <img className="w-16 h-16" src="/Group 39522.png" />
+            <img className="w-16 h-16" src="/Group 39523.png" />
             <div className="">
               <p className="text-white">Pro Plan</p>
               <p className="font-openSans text-2xl font-bold text-white ">
@@ -92,25 +92,25 @@ export const PricingSection = () => {
           <ul className="mt-4 text-left text-white space-y-2">
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
-                <img className="mr-2" src="/Check Circle Icon.png" />
+                <img className="mr-2" src="/Check Circle 2.png" />
               </span>{" "}
               Unlimited AI image generations
             </li>
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
-                <img className="mr-2" src="/Check Circle Icon.png" />
+                <img className="mr-2" src="/Check Circle 2.png" />
               </span>{" "}
               High-resolution images
             </li>
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
-                <img className="mr-2" src="/Check Circle Icon.png" />
+                <img className="mr-2" src="/Check Circle 2.png" />
               </span>{" "}
               No watermark on generated images
             </li>
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
-                <img className="mr-2" src="/Check Circle Icon.png" />
+                <img className="mr-2" src="/Check Circle 2.png" />
               </span>
               Access to multiple styles
             </li>
@@ -124,7 +124,7 @@ export const PricingSection = () => {
 
         <div className="bg-white shadow-lg rounded-3xl p-8 py-12">
           <div className="flex gap-2">
-            <img className="w-16 h-16" src="/Group 39522.png" />
+            <img className="w-16 h-16" src="/Group 39524.png" />
             <div className="">
               <p className="text-[#6F6C90]">Premium Plan</p>
               <p className="font-openSans text-2xl font-bold text-gray-900 ">
