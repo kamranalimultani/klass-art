@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import React from "react";
-
+import { motion } from "framer-motion";
 export const SingleFeature = ({
   reverse = false,
   img,
@@ -14,10 +14,22 @@ export const SingleFeature = ({
         reverse ? "flex-row-reverse" : ""
       }`}
     >
-      <div className="w-1/2">
+      <motion.div
+        initial={{ opacity: 0, x: reverse ? 150 : -150 }} // Moves in from left or right based on `reverse`
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="w-1/2"
+      >
         <img src={img}></img>
-      </div>
-      <div className="w-1/2">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: reverse ? -150 : 150 }} // Moves in from left or right based on `reverse`
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="w-1/2"
+      >
         <p className=" font-openSans text-3xl sm:text-4xl md:text-4xl font-semibold pb-4">
           <span className="bg-gradient-to-r from-[#C289FF] to-[#5555FF] bg-clip-text text-transparent">
             {title.first}
@@ -28,7 +40,7 @@ export const SingleFeature = ({
         <button className="font-openSans my-6 text-sm cursor-pointer flex items-center text-center gap-3 text-white bg-gradient-to-r from-[#3BAAFF] to-[#5556FF] px-8 py-3 rounded-4xl transition-all duration-300 hover:from-[#5556FF] hover:to-[#3BAAFF]">
           {button} <ArrowUpRight color="#ffffff" strokeWidth={0.75} />
         </button>
-      </div>
+      </motion.div>
     </div>
   );
 };
