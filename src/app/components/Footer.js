@@ -12,7 +12,7 @@ export const Footer = () => {
               href="#"
               className="flex justify-center space-x-3 lg:justify-start"
             >
-              <span className="self-center text-2xl font-semibold bg-gradient-to-r from-[#C289FF] to-[#5555FF] bg-clip-text text-transparent">
+              <span className="font-poppins  self-center text-2xl font-[600] bg-gradient-to-r from-[#C289FF] to-[#5555FF] bg-clip-text text-transparent">
                 KLASS ART
               </span>
             </a>
@@ -32,20 +32,20 @@ export const Footer = () => {
               />
               <button
                 type="submit"
-                className="rounded-r-md px-7 bg-indigo-600 shadow-md  text-white font-semibold hover:bg-indigo-700 py-4"
+                className="font-openSans rounded-r-md px-7 bg-indigo-600 shadow-md  text-white font-semibold hover:bg-indigo-700 py-4"
               >
                 Subscribe
               </button>
             </div>
           </div>
 
-          <div className="space-y-3">
-            <h3 className="tracking-wide uppercase text-white font-black text-2xl">
+          <div className="space-y-3 font-poppins">
+            <h3 className=" tracking-wide uppercase text-white font-[600] text-2xl">
               Services
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="#">
+                <a rel=" noopener noreferrer" href="#">
                   Prompt to image
                 </a>
               </li>
@@ -101,7 +101,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="py-3 text-sm text-center dark:text-gray-600 bg-[#0F0F0F]">
+        <div className="font-openSans py-3 text-sm text-center text-white  bg-[#0F0F0F]">
           © 2025 klassart. All Rights Reserved. Designed by ankit sharma
         </div>
       </footer>

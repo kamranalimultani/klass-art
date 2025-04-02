@@ -12,7 +12,7 @@ export const MainSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 2000);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -34,11 +34,11 @@ export const MainSlider = () => {
       </AnimatePresence>
 
       {/* Content */}
-      <div className="relative flex flex-col gap-5 px-6 md:px-16 lg:px-40 text-center h-full items-center justify-center">
-        <p className="font-dmSans text-lg sm:text-xl md:text-3xl text-white leading-tight">
+      <div className="relative flex flex-col gap-3 px-6 md:px-16 lg:px-40 text-center h-full items-center justify-center">
+        <p className="font-dmSans text-lg sm:text-xl md:text-[38px] text-white leading-tight">
           Instantly Transform Ideas into Stunning
         </p>
-        <p className="font-dmSans text-2xl sm:text-4xl md:text-6xl text-white font-black">
+        <p className="font-dmSans text-2xl sm:text-4xl md:text-[66px] text-white font-black">
           AI-Generated Images
         </p>
         <p className="font-dmSans sm:text-md text-white max-w-[90%] md:max-w-[75%]">
@@ -46,7 +46,7 @@ export const MainSlider = () => {
           extract hidden text with AI <br /> – innovative, efficient, and
           creative solutions for all!
         </p>
-        <button className=" hover:shadow-3xl cursor-pointer flex items-center text-center gap-3 text-[#1A1A1A] px-6 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 rounded-2xl bg-white">
+        <button className=" hover:shadow-3xl cursor-pointer flex items-center text-center gap-3 text-[#1A1A1A] px-2 sm:px-6 md:px-6 py-4 sm:py-4 md:py-5 rounded-2xl bg-white">
           Generate Now <ArrowUpRight color="#1A1A1A" strokeWidth={0.75} />
         </button>
       </div>

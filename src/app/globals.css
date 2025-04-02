@@ -14,7 +14,12 @@
 .font-dmSans {
   font-family: var(--font-dmSans);
 }
-
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+.font-inter {
+  font-family: var(--font-inter);
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -6,7 +6,7 @@ export const UltimateFeature = () => {
     <div className=" px-6 md:px-16 lg:px-36 py-20 bg-[url('/assets/mobilebg.png')] bg-no-repeat bg-cover bg-center">
       {/* Heading */}
       <div className=" text-center pt-12 pb-20">
-        <p className="font-dmSans text-3xl sm:text-4xl md:text-6xl font-bold text-[#333333]">
+        <p className="font-openSans text-3xl sm:text-4xl md:text-[66px] font-bold text-[#333333]">
           Your Ultimate AI Image Maker
         </p>
       </div>

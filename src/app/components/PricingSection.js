@@ -4,13 +4,13 @@ export const PricingSection = () => {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-purple-100 py-16 px-6 ">
       <div className="max-w-5xl mx-auto text-center">
-        <h3 className="text-sm font-semibold text-blue-600 tracking-wide">
+        <h3 className="font-openSans text-[18px] font-semibold text-blue-600 tracking-wide">
           PRICING PLANS
         </h3>
-        <h2 className="text-4xl font-bold text-gray-900 mt-2">
+        <h2 className="font-openSans  text-3xl sm:text-4xl md:text-[66px] font-bold text-[#333333] mt-2">
           Experience AI Without Limits
         </h2>
-        <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
+        <p className="font-openSans   text-[16px] font-[400] text-[#6F6C90] mt-3 max-w-2xl mx-auto">
           Go beyond basic AI tools with our Pro and Premium plans for
           high-quality <br /> image generation and customization.
         </p>
@@ -21,22 +21,26 @@ export const PricingSection = () => {
           <div className="flex gap-2">
             <img className="w-16 h-16" src="/Group 39522.png" />
             <div className="">
-              <p className="text-[#6F6C90]">Free Plan</p>
+              <p className="text-[#6F6C90] font-openSans text-[18px] font-[400]">
+                Free Plan
+              </p>
               <p className="font-openSans text-2xl font-bold text-gray-900 ">
                 Basic Access
               </p>
             </div>
           </div>
-          <p className="text-gray-500 text-sm my-6">
+          <p className="text-gray-500 text-sm my-6 font-openSans leading-[26px]">
             Best for casual users who want to try AI-generated images with basic
             features.
           </p>
-          <p className="text-6xl font-black text-[#5555FF] mt-4">
-            ₹0.00{" "}
-            <span className="text-sm text-gray-500 font-light">/monthly</span>
+          <p className="font-openSans text-6xl font-black text-[#5555FF] mt-4">
+            <div>
+              <span className="font-dmSans">₹</span> 0.00{" "}
+              <span className="text-sm text-gray-500 font-light">/monthly</span>
+            </div>
           </p>
-          <p className="text-black font-bold">What’s included</p>
-          <ul className="mt-4 text-left text-gray-600 space-y-2">
+          <p className="text-black font-bold font-openSans">What’s included</p>
+          <ul className="mt-4 text-left text-gray-600 space-y-2 font-openSans">
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
                 <img className="mr-2" src="/Check Circle Icon.png" />
@@ -63,7 +67,7 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 rounded-lg">
+            <button className="font-openSans rounded-2xl cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 rounded-lg">
               Start for Free
             </button>
           </div>
@@ -81,15 +85,17 @@ export const PricingSection = () => {
               Popular
             </div>
           </div>
-          <p className="text-gray-200 text-sm my-6">
+          <p className="text-gray-200 text-sm my-6 leading-[26px]">
             Content creators, designers, and users who need more flexibility.
           </p>
-          <p className="text-6xl font-black text-white mt-4">
-            ₹499{" "}
-            <span className="text-sm text-gray-200 font-light">/monthly</span>
+          <p className="text-6xl font-black text-gray-20 mt-4">
+            <div>
+              <span className="font-dmSans">₹</span> 499{" "}
+              <span className="text-sm text-white font-light">/monthly</span>
+            </div>
           </p>
-          <p className="text-white font-bold">What’s included</p>
-          <ul className="mt-4 text-left text-white space-y-2">
+          <p className="text-white font-bold font-openSans">What’s included</p>
+          <ul className="font-openSans mt-4 text-left text-white space-y-2">
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
                 <img className="mr-2" src="/Check Circle 2.png" />
@@ -116,7 +122,7 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="mt-6 w-[80%] bg-white   text-purple-900 py-4 rounded-lg hover:shadow-2xl cursor-pointer">
+            <button className="font-openSans rounded-2xl mt-6 w-[80%] bg-white   text-purple-900 py-4 rounded-lg hover:shadow-2xl cursor-pointer">
               Get started
             </button>
           </div>
@@ -126,22 +132,24 @@ export const PricingSection = () => {
           <div className="flex gap-2">
             <img className="w-16 h-16" src="/Group 39524.png" />
             <div className="">
-              <p className="text-[#6F6C90]">Premium Plan</p>
+              <p className="text-[#6F6C90] font-openSans">Premium Plan</p>
               <p className="font-openSans text-2xl font-bold text-gray-900 ">
                 For Professionals
               </p>
             </div>
           </div>
-          <p className="text-gray-500 text-sm my-6">
+          <p className="text-gray-500 text-sm my-6 font-openSans leading-[26px]">
             Best for: Businesses, agencies, and professionals who need AI
             without limits.
           </p>
           <p className="text-6xl font-black text-[#5555FF] mt-4">
-            ₹999{" "}
-            <span className="text-sm text-gray-500 font-light">/monthly</span>
+            <div>
+              <span className="font-dmSans">₹</span> 999{" "}
+              <span className="text-sm text-gray-500 font-light">/monthly</span>
+            </div>{" "}
           </p>
-          <p className="text-black font-bold">What’s included</p>
-          <ul className="mt-4 text-left text-gray-600 space-y-2">
+          <p className="text-black font-bold font-openSans">What’s included</p>
+          <ul className="mt-4 text-left text-gray-600 space-y-2 font-openSans">
             <li className="flex items-center text-sm my-3">
               <span className="text-blue-600">
                 <img className="mr-2" src="/Check Circle Icon.png" />
@@ -168,7 +176,7 @@ export const PricingSection = () => {
             </li>
           </ul>
           <div className="text-center">
-            <button className="cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 rounded-lg">
+            <button className="font-openSans rounded-2xl cursor-pointer mt-6 w-[80%] bg-[linear-gradient(-120deg,_#5555FF,_#C289FF)] hover:bg-[linear-gradient(-90deg,_#C289FF,_#5555FF)] transition-all duration-300 text-white py-4 ">
               Start for Free
             </button>
           </div>

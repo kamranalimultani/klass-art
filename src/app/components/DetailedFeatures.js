@@ -5,7 +5,7 @@ export const DetailedFeatures = () => {
   return (
     <div className=" px-6 md:px-16 lg:px-36 py-20 bg-[url('/assets/mobilebg.png')] bg-no-repeat bg-cover bg-center">
       <div className="  px-6 md:px-16 lg:px-36 ">
-        <p className="text-center font-dmSans text-3xl sm:text-4xl md:text-6xl font-bold pt- pb-20">
+        <p className="text-center font-openSans text-3xl sm:text-4xl md:text-[66px] font-bold pt- pb-20">
           Transform Ideas{" "}
           <span className="bg-gradient-to-r from-[#C289FF] to-[#5555FF] bg-clip-text text-transparent">
             {" "}

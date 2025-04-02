@@ -45,8 +45,10 @@ export const Faq = () => {
   return (
     <div className="px-6 md:px-16 lg:px-36 py-20 bg-gradient-to-b from-blue-50 to-purple-100 py-16 px-6 ">
       <div className="flex flex-col">
-        <p className="text-2xl font-bold text-[#5555FF]">ASK QUESTION</p>
-        <h2 className="text-3xl sm:text-4xl font-bold  mb-10">
+        <p className="text-2xl font-[500] text-[#5555FF] font-inter">
+          ASK QUESTION
+        </p>
+        <h2 className="font-dmSans md:text-[52px] sm:text-4xl font-[500]  mb-10">
           Frequently Asked Questions
         </h2>
       </div>

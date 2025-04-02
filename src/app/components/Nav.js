@@ -23,13 +23,13 @@ export const Nav = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={` font-openSans  fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         scrolled ? "bg-white shadow-md text-black" : "bg-transparent text-white"
       } px-6 md:px-12 lg:px-36 py-4`}
     >
       <div className="flex justify-between items-center">
         {/* Logo */}
-        <div className="text-3xl font-semibold">KLASS ART</div>
+        <div className="text-3xl font-semibold font-poppins">KLASS ART</div>
 
         {/* Desktop Menu (Hidden on Mobile) */}
         <div className="hidden lg:flex items-center gap-12">
