@@ -46,8 +46,17 @@ export const MainSlider = () => {
           extract hidden text with AI <br /> – innovative, efficient, and
           creative solutions for all!
         </p>
-        <button className=" hover:shadow-3xl cursor-pointer flex items-center text-center gap-3 text-[#1A1A1A] px-2 sm:px-6 md:px-6 py-4 sm:py-4 md:py-5 rounded-2xl bg-white">
-          Generate Now <ArrowUpRight color="#1A1A1A" strokeWidth={0.75} />
+        <button
+          className="animate-pulse relative overflow-hidden cursor-pointer flex items-center text-center gap-3 text-[#1A1A1A] px-2 sm:px-6 md:px-6 py-4 sm:py-4 md:py-5 rounded-2xl bg-white transition-all duration-500 ease-in-out
+  before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#1A1A1A] before:to-[#333] before:w-0 before:h-full before:transition-all before:duration-500 before:ease-in-out before:rounded-2xl
+  hover:before:w-full hover:text-white"
+        >
+          <span className="relative z-10">Generate Now</span>
+          <ArrowUpRight
+            className="relative z-10"
+            color="currentColor"
+            strokeWidth={0.75}
+          />
         </button>
       </div>
     </div>
